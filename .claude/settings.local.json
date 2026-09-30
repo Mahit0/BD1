@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed 's/=.*/=<redacted>/' .env)",
+      "Bash(curl -sL -m 15 -A \"Mozilla/5.0\" https://www.status-ovhcloud.com/)",
+      "Bash(npm init *)",
+      "Bash(npm pkg *)",
+      "Bash(npm install *)",
+      "Bash(npm ls *)",
+      "Bash(node -e 'const s=require\\(\"./data/seen.json\"\\);for\\(const k in s\\)console.log\\(k,s[k].length\\)')",
+      "Bash(sed -i 's|// Premier passage sur ce flux : on mémorise tout sans publier \\(sauf postOnFirstRun\\)|// Premier passage sur ce flux : seuls les articles choisis par postOnFirstRun seront publiés|' src/index.js)",
+      "Bash(sed -i 's|^Au premier lancement, les articles déjà présents sont mémorisés sans être publiés$|Au premier lancement, les articles déjà présents sont publiés une fois|' README.md)",
+      "Bash(node --check src/index.js)"
+    ]
+  }
+}

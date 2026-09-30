@@ -1,0 +1,19 @@
+{
+  "name": "bot-veille-techno",
+  "version": "1.0.0",
+  "description": "Bot Discord de veille techno (flux RSS)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.4",
+    "rss-parser": "^3.13.0"
+  }
+}
