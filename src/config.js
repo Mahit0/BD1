@@ -82,17 +82,26 @@ export default {
       name: 'CERT-FR — Avis',
       channels: '1553119783510220872',
       color: 0xe1000f,
-      urls: ['https://www.cert.ssi.gouv.fr/avis/feed/'],
+      urls: ['https://www.cert.cyber.gouv.fr/avis/feed/'],
     },
 
     // ---------------------------------------------------------------------------
     // FrenchBreaches — Fuites de données
     // ---------------------------------------------------------------------------
     {
-      name: 'FrenchBreaches',
+      name: 'FrenchBreaches - Fuites',
       channels: '1553119904020828242',
       color: 0xf39c12,
       urls: ['https://frenchbreaches.com/feed.xml'],
+    },
+    // ---------------------------------------------------------------------------
+    // FrenchBreaches — Blog
+    // ---------------------------------------------------------------------------
+    {
+      name: 'FrenchBreaches - Blog',
+      channels: '1565682923561160714',
+      color: 0x3e704b,
+      urls: ['https://frenchbreaches.com/blog/feed.xml'],
     },
   ],
 };
