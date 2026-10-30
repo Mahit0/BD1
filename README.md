@@ -3,7 +3,8 @@
 Publie automatiquement dans vos salons Discord les nouveaux articles de :
 - **Statuts OVHcloud** (les 6 pages de statut de https://www.status-ovhcloud.com/)
 - **CERT-FR – Avis** (https://www.cert.ssi.gouv.fr/avis/feed/)
-- **FrenchBreaches** (https://frenchbreaches.com/feed.xml)
+- **FrenchBreaches - Fuites de données** (https://frenchbreaches.com/feed.xml)
+- **FrenchBreaches - Blog (veille techno)** (https://frenchbreaches.com/blog/feed.xml)
 
 ## Installation
 
